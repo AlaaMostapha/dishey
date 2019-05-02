@@ -1,12 +1,21 @@
+import 'jquery/dist/jquery.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux';
+import { store } from './loginAndSignup/_helpers';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// setup fake backend
+import { configureFakeBackend } from './loginAndSignup/_helpers/fake-backend';
+configureFakeBackend();
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+ReactDOM.render( <Provider store={store}>
+    <App />
+</Provider>, document.getElementById('root'));
+
 serviceWorker.unregister();

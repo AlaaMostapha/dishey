@@ -1,0 +1,44 @@
+
+.amezing-offers {
+    padding: 125px 0 0;
+  }
+  .amezing-offers .overlay {
+    background: #383838;
+    z-index: -1;
+  }
+  .amezing-offers .fixed-bg {
+    z-index: -1;
+    opacity: 0.09;
+  }
+  .amezing-offers .img-holder {
+    position: relative;
+    right: -40px;
+  }
+  .amezing-offers .img-holder img {
+    width: auto;
+    float: right;
+  }
+  .text-block-stl1 {
+    width: 100%;
+    float: left;
+    padding: 20px 0 0 76px;
+    max-width: 540px;
+  }
+  .text-block-stl1 .title {
+      text-align:  left;
+  }
+  .text-block-stl1 .title h2,.text-block-stl1 .title p.top-h,.text-block-stl1 .title p.bottom-p {
+      color:  #fff;
+  }
+  .btn1 {
+    text-transform: uppercase;
+  }
+  .text-block-stl1 .btn1 {
+    margin:0 10px 10px 0;
+  }
+  .text-block-stl1 .title h2 {
+    font-size: 59px;
+  }
+  .text-block-stl1 .title .top-h {
+    font-size: 60px;
+  }

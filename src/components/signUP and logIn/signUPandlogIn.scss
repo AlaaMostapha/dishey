@@ -1,0 +1,52 @@
+.signIn h2{
+    font-size: 34px;
+}
+input{
+    border: 2px solid #eee;
+    padding: 10px 50px;
+    width: 100%;
+}
+.submitBtn{
+    border-radius: 50px;
+    background:#000;
+    color:#fff;
+    padding: 15px 50px;
+}
+.formH{
+        text-align: center;
+        font-size: 2.2em;
+        font-size: 50px;
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif; 
+}
+.btm-style span:before,.btm-style span:after {
+    width: calc(50% - 49px);
+    width: -moz-calc(50% - 49px);
+    display: inline-block;
+    float: left;
+    background: #dbdbdb;
+    height: 1px;
+    content: "";
+    position: relative;
+    top: 7px;
+}
+
+.btm-style img{
+    display: inline-block;
+    margin: 0 10px;
+    width: auto;
+    float: left;
+}
+.jumbotron{
+    margin-bottom:0
+}
+.form-control {
+    height: calc(1.5em + .75rem + 12px);
+}
+.registBtn:hover,.cancelBtn:hover{
+    color:#c10a28;
+}
+
+.help-block{color: #c10a28;}

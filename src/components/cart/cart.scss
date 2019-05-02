@@ -1,0 +1,55 @@
+.cartImg{
+    width:100%
+}
+.cart-tbl.table>tbody>tr>td.p_price, .cart-tbl.table>tbody>tr>td.p_quantity, .cart-tbl.table>tbody>tr>td.p_ttl {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.cart-tbl .quantity {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    float: none;
+    border: 1px solid #dcdcdc;
+    padding: 3px 10px;
+}
+.quantity .quantity-button {
+    display: inline-block;
+    width: auto;
+    font-size: 15px;
+    padding: 0 0px;
+    background: #dcdcdc;
+    width: 21px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.quantity .form-control {
+    width: 100%;
+    max-width: 40px;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    border-style: none;
+    box-shadow: none;
+    font-size: 16px;
+    -webkit-box-shadow: none;
+}
+.quantity .quantity-button {
+    display: inline-block;
+    width: auto;
+    font-size: 15px;
+    padding: 0 0px;
+    background: #dcdcdc;
+    width: 21px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#inputCart {
+    border: 2px solid #eee;
+    padding: 9px 15px;
+    width: 59%;
+}

@@ -1,0 +1,117 @@
+/*============== go-to-top ==============*/
+.go-to-top {
+    position:fixed;
+    right:25px;
+    bottom:-30px;
+    color:#fff;
+    font-size:2em;
+    opacity:0;
+    cursor: pointer;
+    border-radius: 0px;
+    padding: 11px;
+    width: 60px;
+    text-align: center;
+    z-index: 8888;
+    height: 60px;
+    -webkit-box-shadow: 0 0 10px 1px rgba(000,000,000,0.1);
+    box-shadow: 0 0 10px 1px rgba(000,000,000,0.1);
+  }
+  .go-to-top.goto {
+    opacity: 1;
+    right: 25px;
+    bottom: 0px;
+  }
+  .go-to-top.goto:hover {
+    bottom: 5px;
+  }
+  
+  .pd0 {
+    padding: 0;
+  }
+  
+  .btn1 {
+    line-height: 20px;
+    padding: 10px;
+    min-width:  189px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid;
+  }
+  
+  .btn1.stl1 {
+    border-color: #fff;
+  }
+  .btn1.stl2:hover,.btn1.stl1:hover {
+    color: #fff;
+  }
+  .btn1.stl2:hover {
+    background-color: transparent;
+    border-color: #fff;
+  }
+  .btn2 {
+    line-height: 1;
+    padding: 8px;
+    min-width:  178px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    border:1px solid;
+  }
+  .btn3 {
+    line-height: 1;
+    padding: 10px;
+    min-width: 145px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid;
+    font-size:  12px;
+    text-transform: uppercase;
+  }
+  .btn3:hover {
+    background-color: transparent;
+  }
+  
+  /*=============== Helper Classes ===============*/
+  
+  .new-block {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .new-block:after {
+      content:'';
+      display:block;
+      clear: both;
+  }
+  [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0;
+    display: inline-block;
+  }
+  
+  .clearfix {
+    display: block;
+    content: "";
+    width: 100%;
+    clear:  both;
+  }
+  .pd0 {
+    padding: 0;
+  }
+  .pdT0 {
+    padding-top: 0;
+  }
+  .pdB0 {
+    padding-bottom: 0;
+  }
+  .mr0 {
+    margin-right: 0;
+  }
+  .mrT0 {
+    margin-top: 0;
+  }
+  .mrB0 {
+    margin-bottom: 0;
+  }

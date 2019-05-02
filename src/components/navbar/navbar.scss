@@ -1,0 +1,260 @@
+
+/*=============================================
+ Header
+==============================================*/
+
+.main-header {
+    background: #ffffff;
+    z-index: 9;
+  }
+  
+  .main-header .topnav {
+    padding: 18px 0;
+  }
+  
+  .main-nav {
+    padding: 0 0;
+    position: relative;
+    z-index: 2;
+  }
+  .main-nav:before {
+    content: "";
+    position: absolute;
+    background: url(../../assets/images/brd.png);
+    background-repeat: repeat-x !important;
+    width: 100%;
+    height: 12px;
+    bottom: -10px;
+    z-index: 2;
+    width: calc(100% - 13.1%);
+    width: -webkit-calc(100% - 13.1%);
+    width: -moz-calc(100% - 13.1%);
+    background-position: 3px !important;
+  }
+  .main-nav .logo {
+    width: 15.2%;
+    float: left;
+    padding: 25px 0 0 40px;
+    position: relative;
+  }
+  .main-nav .logo:before {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: #000;
+  }
+  .logo .img-responsive {
+    width: auto;
+    display: inline-block;
+  }
+  .main-nav .nav {
+    display: inline-block;
+    width: 71.3%;
+    padding: 0 0 0 0;
+    text-align:  right;
+    float: left;
+  }
+  .main-nav .nav ul {
+    float: right;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+  }
+  .main-nav .nav ul li {
+    display: inline-block;
+    margin: 0;
+    float: left;
+    position: relative;
+  }
+  .main-nav .nav ul li.active:before {
+      content: "";
+      height: 4px;
+      position: absolute;
+      width: 100%;
+      background: #fff;
+      top: 0;
+      left:  0;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+  }
+  .main-nav .nav ul li:hover:before {
+    opacity: 1;
+  }
+  .main-nav .nav ul li:before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 4px;
+    opacity: 0;
+    -webkit-transform: scale(0.0);
+    -moz-transform: scale(0.0);
+    -ms-transform: scale(0.0);
+    -o-transform: scale(0.0);
+    transform: scale(0.0);
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+  }
+  .main-nav .nav ul li:hover:before {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    background: #fff;
+  }
+  .main-nav .nav ul li.active:before {
+    opacity: 1;
+  }
+  .main-nav .nav ul li a {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 50px 22px;
+    position: relative;
+    border-radius: 50px;
+  }
+  .main-nav .nav ul li.active a {
+    border-color: #fff;
+  }
+  
+  .main-nav .nav ul li.drop {
+    position: relative;
+  }
+  .main-nav .nav ul li.drop>.drop-down {
+    position: absolute;
+    width: 150px;
+    background: #fff;
+    left: 0;
+    top: 120px;
+    text-align: left;
+    padding-top: 20px;
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .main-nav .nav ul li.drop>.drop-down li:before {
+    display: none;
+  }
+  .main-nav.home2 .nav ul li.drop>.drop-down {
+    top: 79px;
+    padding: 0;
+  }
+  .main-nav .nav ul li.drop:hover>.drop-down {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+    visibility: visible;
+  }
+  .main-nav .nav ul li.drop>.drop-down>li {
+    display: block;
+    width: 100%;
+  }
+  .main-nav .nav ul li.drop>.drop-down>li>a {
+    color: #999;
+    padding: 15px 20px;
+    border-radius: 0px;
+  }
+  .main-nav .nav ul li.drop>.drop-down>li>a:hover {
+    color: #fff;
+  }
+  .main-nav .nav-right-block {
+    float: right;
+    position: relative;
+    padding: 40px 0 45px;
+    background: #d70729;
+    line-height: 35px;
+    width: 13.1%;
+    position: relative;
+    right: -15px;
+    text-align: center;
+  }
+  .main-nav .nav-right-block a {
+    color: #fff;
+  }
+  .main-nav .nav-right-block i:before {
+    font-size: 17px;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border:2px solid #fff;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .main-nav .nav-right-block:before {
+      content: "";
+      position: absolute;
+      background: url(../../assets/images/brd2.png);
+      background-repeat: repeat-x !important;
+      width: 100%;
+      height: 17px;
+      bottom: -16px;
+      z-index: 3;
+      background-position-x: -2px !important;
+      left:  0;
+  }
+  
+  .main-nav .location-block {
+    width: 13.3%;
+    display: inline-block;
+    float: left;
+    padding: 32px 0 0 40px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-nav .location-block:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 70px;
+    top: 20px;
+    left: 0;
+    border: 1px solid;
+    border-left-color: #fff;
+    border-right-color: #000;
+    border-right-width: 1px;
+    border-style: none solid;
+    opacity: 0.2;
+  }
+  
+  .main-nav .location-block p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  .main-nav .location-block p:before {
+    position: absolute;
+    content: "\f10c";
+    font-family: Flaticon;
+    font-size: 15px;
+    left: -20px;
+    font-weight:  bold;
+    top: 2px;
+  }
+  .main-nav .location-block span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+  }
+  

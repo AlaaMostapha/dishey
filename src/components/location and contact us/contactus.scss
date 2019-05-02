@@ -1,0 +1,423 @@
+#map{
+    width: 100%;
+}
+
+
+.contactusHeader,.form-block1,.send-msg{
+    background:#f1f1f1;
+}
+  .block-stl9 {
+    width: 100%;
+    float: left;
+  }
+  .block-stl9 .img-holder {
+    width: 112px;
+    background: #fafafa;
+    float: left;
+    border:1px solid #ebebeb;
+  }
+  .block-stl9 .info-block {
+    width: calc(100% - 112px);
+    width: -webkit-calc(100% - 112px);
+    width: -moz-calc(100% - 112px);
+    float: left;
+    padding: 5px 20px;
+  }
+  .block-stl9 .info-block h5 {
+    font-size: 18px;
+    color: #111111;
+    text-transform: uppercase;
+  }
+  .block-stl9 .info-block .txt-cat {
+    font-size: 16px;
+    color: #a3a3a3;
+    margin-bottom: 5px;
+  }
+  .block-stl9 .info-block .ab-txt-block {
+    font-size: 16px;
+    color: #616161;
+    line-height: 22px;
+  }
+  .btn1.stl3 {
+    border-color: #dadada;
+    color: #dadada;
+    min-width: auto;
+    padding: 3px 25px;
+    font-size: 12px;
+    display: inline-block;
+  }
+  .btn1.stl3:hover {
+    color: #fff;
+  }
+  .cart-tbl.table>tbody>tr>td {
+    vertical-align: middle;
+  }
+  .cart-tbl .btn1 {
+    margin-right: 10px;
+  }
+  .cart-tbl .p_dtl {
+    width: 33%;
+  }
+  .cart-tbl .p_btn {
+    width: 25%;
+    text-align: center;
+  }
+  .cart-tbl .p_price {
+    width: 15.5%;
+  }
+  .cart-tbl .p_quantity {
+    width: 15.5%;
+  }
+  .cart-tbl .p_ttl {
+    width: 10%;
+  }
+  .cart-tbl .quantity {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    float: none;
+    border: 1px solid #dcdcdc;
+    padding: 3px 10px;
+  }
+  .quantity .quantity-button { 
+    display: inline-block;
+    width: auto;
+    font-size: 15px;
+    padding: 0 0px;
+    background: #dcdcdc;
+    width: 21px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .quantity .form-control {
+    width: 100%;
+    max-width: 40px;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    border-style: none;
+    box-shadow: none;
+    font-size: 16px;
+    -webkit-box-shadow: none;
+  }
+  .quantity .quantity-button i:before {
+    font-size: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+  }
+  .quantity input[type="number"]::-webkit-inner-spin-button,
+  .quantity input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .cart-tbl thead th {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .cart-tbl.table>tbody {
+    border-bottom: 1px solid #ddd;
+  }
+  .cart-tbl.table>tbody>tr>td, 
+  .cart-tbl.table>tbody>tr>th, 
+  .cart-tbl.table>tfoot>tr>td, 
+  .cart-tbl.table>tfoot>tr>th, 
+  .cart-tbl.table>thead>tr>td, 
+  .cart-tbl.table>thead>tr>th {
+    padding: 40px 0;
+  }
+  .cart-tbl.table>thead>tr>th {
+    border-bottom: none;
+  }
+  .cart-tbl.table>tbody>tr>td.p_price,
+  .cart-tbl.table>tbody>tr>td.p_quantity,
+  .cart-tbl.table>tbody>tr>td.p_ttl {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .loc-cop-sum {
+    padding: 0 0 150px;
+  }
+  .block-stl10 {
+    width: 100%;
+    float: left;
+    background: #fafafa;
+    border: 1px solid #ebebeb;
+    padding: 30px 26px 75px;  
+  }
+  .block-stl10 h3 {
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .block-stl10 p {
+    color: #616161;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    padding: 0 15px 0 0;
+  }
+  .block-stl10 .form-group {
+    margin-bottom: 30px;
+  }
+  .block-stl10 .form-control {
+    background: #fff;
+    border-radius: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    padding: 13px 15px;
+    height: auto;
+    border-color: #ebebeb;
+  }
+  .block-stl10 .btn5 {
+    background: #e3e3e3;
+    color: #8d8d8d;
+    min-width: 154px;
+    padding: 5px 10px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .block-stl10 .btn5:hover {
+    color: #fff;
+  }
+  .block-stl10 .list-unstyled {
+    float: left;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 20px;
+    padding: 20px 0 20px;
+    margin-bottom: 15px;
+  }
+  .block-stl10 .list-unstyled li {
+    width: 100%;
+    display: block;
+    float: left;
+    line-height: 20px;
+    padding: 7px 0;
+  }
+  .block-stl10 .ttl, 
+  .block-stl10 .stts { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .block-stl10 .ttl {
+    float: left;
+  }
+  .block-stl10 .stts {
+    float: right;
+    font-weight: 500;
+  }
+  .block-stl10 .ttl-all {
+    width: 100%;
+    float: left;
+    font-weight: 800;
+  }
+  .block-stl10 .odr-stts {
+    float: right;
+  }
+  .block-stl10.odr-summary {
+    padding-bottom: 16px;
+  }
+  .loc-cop-sum .btn1.stl2 {
+    color: #fff;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .loc-cop-sum .btn1.stl2:hover {
+    background: transparent;
+  }
+  #map1 {
+    width: 100%;
+    height: 690px;
+    float: left;
+  }
+  .block-stl11 {
+    width: 100%;
+    float: left;
+    padding: 52px 65px 55px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .block-stl11 i:before {
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 34px;
+    line-height: 76px;
+    width: 76px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .block-stl11 p {
+    font-size: 17px;
+    color: #616161;
+    line-height: 26px;
+    margin-top: 25px;
+  }
+  .block-stl11:hover {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  .block-stl11:hover p {
+    color: #fff;
+  }
+  
+  .block-stl11:hover i:before {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+    background: #fff;
+  }
+  .center-wrapper.cn-us .inner-wrapper {
+    top: 0;
+    margin-bottom: 0;
+  }
+  .send-msg {
+    padding: 80px 0 40px;
+    width: 100%;
+    float: left;
+  }
+  .form-block1 {
+    width: 100%;
+    float: left;
+    padding: 40px 0 80px;
+  }
+  .form-block1 .form-group {
+    margin-bottom: 30px;
+  }
+  .form-block1 .form-control {
+    border-radius: 0;
+    height: auto;
+    background: #fff;
+    font-size: 18px;
+    padding: 23px 18px;
+    border-color: #e7e7e7;
+    font-style: italic;
+  }
+  .form-block1  textarea.form-control {
+    min-height: 268px;
+  }
+  .form-block1 .btn3 {
+    color: #fff;
+    padding: 15px 8px;
+    min-width: 338px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  /* Place Holder CSS */
+  .form-block1 input.form-control::-webkit-input-placeholder,.form-block1 textarea.form-control::-webkit-input-placeholder {
+    color: #b7b7b7;
+    opacity: 1;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control:-moz-placeholder,.form-block1 textarea.form-control:-moz-placeholder {
+    color: #b7b7b7;
+    opacity: 1;
+    -moz-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control::-moz-placeholder,.form-block1 textarea.form-control::-moz-placeholder {
+    color: #b7b7b7;
+    opacity: 1;
+    -moz-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control:-ms-input-placeholder,.form-block1 textarea.form-control:-ms-input-placeholder {  
+    color: #b7b7b7;
+    opacity: 1;
+    -ms-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  
+  /* Place Holder CSS for Focus */
+  .form-block1 input.form-control:hover::-webkit-input-placeholder,.form-block1 textarea.form-control:hover::-webkit-input-placeholder {
+    opacity: 0.75;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control:hover:-moz-placeholder,.form-block1 textarea.form-control:hover:-moz-placeholder {
+    opacity: 0.75;
+    -moz-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control:hover::-moz-placeholder,.form-block1 textarea.form-control:hover::-moz-placeholder {
+    opacity: 0.75;
+    -moz-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control:hover:-ms-input-placeholder,.form-block1 textarea.form-control:hover:-ms-input-placeholder {  
+    opacity: 0.75;
+    -ms-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  
+  /* Place Holder CSS for Focus */
+  .form-block1 input.form-control:focus::-webkit-input-placeholder,.form-block1 textarea.form-control:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control:focus:-moz-placeholder,.form-block1 textarea.form-control:focus:-moz-placeholder {
+    opacity: 0;
+    -moz-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control:focus::-moz-placeholder,.form-block1 textarea.form-control:focus::-moz-placeholder {
+    opacity: 0;
+    -moz-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .form-block1 input.form-control:focus:-ms-input-placeholder,.form-block1 textarea.form-control:focus:-ms-input-placeholder {  
+    opacity: 0;
+    -ms-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+  }
+  
+  
+  .form-block1 input.form-control:focus,.form-block1 textarea.form-control:focus {
+    border-color: #b7b7b7 !important;
+    color: #b7b7b7 !important;
+  }
+  .form-block1 input.form-control:focus,.form-block1 textarea.form-control:focus {
+    border-color: #b7b7b7 !important;
+    color: #b7b7b7 !important;
+  }
+  .form-block1 input.form-control:focus,.form-block1 textarea.form-control:focus {
+    border-color: #b7b7b7 !important;
+    color: #b7b7b7 !important;
+  }
+  .form-block1 input.form-control:focus,.form-block1 textarea.form-control:focus {
+    border-color: #b7b7b7 !important;
+    color: #b7b7b7 !important;
+  }
+  
+  .form-block1 .title {
+    margin-bottom: 30px;
+  }
+  .form-block1 .title h2 {
+    font-size: 40px;
+    text-transform: inherit;
+    margin-top: 0;
+    font-weight: 500;
+  }
+  

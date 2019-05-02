@@ -1,0 +1,114 @@
+.block-stl2:hover .anim{
+    visibility: visible!important;
+}
+.pag{
+    background: #bd0725;
+    border-radius: 14px;
+}
+.pag ul li.active a,.pag ul li:hover a{
+    color:black;
+}
+.pag ul{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 13px 16px;
+    border-radius: 14px;
+}
+
+.bg1{
+    background: #c10a28;
+}
+.bg2{
+    background: #cb102f;
+}
+.bg3 {
+    background: #d51535;
+}
+.category img{
+    width:30%;
+   margin:0 auto;
+}
+.category div{
+    text-align:center;
+    padding: 2em;
+}
+.category h4{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+.style_prevu_kit
+{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.style_prevu_kit:hover
+{
+    position: relative;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+}
+.style_prevu_kit:before {
+    content: "";
+    -webkit-clip-path: polygon(100% 0, 35% 51%, 100% 100%);
+    clip-path: polygon(100% 0, 35% 51%, 100% 100%);
+    width: 25px;
+    height: 25px;
+    background: #f7f7f7;
+    position: absolute;
+    top: 50%;
+    right: -1px;
+    opacity: 0;
+    z-index: 3;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.active:before{
+        opacity: 1;  
+}
+img{
+    width: fit-content;
+    display: inline;    
+}
+.filterBtns{
+    background: transparent;
+    padding: 12px 20px;
+    border: 2px solid #e01a3c;
+    background: #bd0726;
+    color: white;
+    margin-right: 2em;
+   /* width: 12%; */
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.filterheading{
+    padding:1.5em;
+}
+i:hover , i:visited{ 
+    color: #bd0726;
+}
+.addToCart{
+    color:#fff
+}
+.aboutMore{
+    margin-bottom:1em
+}

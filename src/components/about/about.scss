@@ -1,0 +1,13 @@
+
+ul.AboutUL li:before {
+    content: '✓';
+    color: #c10a28;
+  }
+  ul.AboutUL li{
+      display:block;
+      font-size:22px;
+      margin-bottom: 0.3em;
+  }
+  ul.AboutUL{
+    width: 25%;
+  }
